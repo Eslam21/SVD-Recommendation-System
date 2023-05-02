@@ -25,9 +25,7 @@ The U, Σ, and V matrices are determined through a process of matrix factorizati
 ### Matrix Factorization
 
 Matrix factorization is the process of decomposing a matrix into its constituent parts in order to make it more understandable or easier to manipulate. In the case of the movie recommendation system, the goal is to factorize the user-item rating matrix into the U, Σ, and V matrices described above.
-![Schematic-representation-for-singular-value-decomposition-SVD-analysis]()
 
-![Matrix Factorization Diagram](https://github.com/example/matrix-factorization-diagram.png)
 
 The SVD algorithm can then use these matrices to predict the ratings for unrated movies by each user.
 
